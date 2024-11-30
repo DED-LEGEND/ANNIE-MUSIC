@@ -136,9 +136,9 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• Add me  •", url="https://t.me/musicXanime_bot?startgroup=true"),
+                        "• Add me  •", url="https://t.me/DxmusicBOT?startgroup=true"),
                     InlineKeyboardButton(
-                        "• Update  •", url="https://t.me/kittyxupdates")  # New button added
+                        "• Update  •", url="https://t.me/DX_INFO")  # New button added
                 ]
             ]
         ),
@@ -11879,7 +11879,7 @@ async def restartbot(client, message: Message, _):
 @app.on_message(
     filters.command("done")
     & filters.private
-    & filters.user(7297381612)
+    & filters.user(6458155947)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
@@ -11889,7 +11889,7 @@ async def help(client: Client, message: Message):
              [
                  [
                       InlineKeyboardButton(
-                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/moonshining2")
+                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/DX_INFO")
                  ]
             ]
          ),
